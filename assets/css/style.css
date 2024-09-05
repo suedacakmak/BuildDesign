@@ -1,0 +1,439 @@
+.pag {
+  padding: 50px;
+  display: flex;
+}
+
+.header {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 50px;
+  top: 24px;
+  left: 24px;
+  padding: 13px 24px 13px 24px;
+  gap: 10px;
+  border-radius: 70px;
+  opacity: 0px;
+}
+
+.navbar {
+  display: contents;
+  background-color: fafafa;
+  border-radius: 70px;
+}
+
+.navbar ul {
+  background-color: #fefeff;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  border-radius: 70px;
+  height: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact {
+  display: contents;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  background-color: #fefeff;
+  color: rgb(15, 14, 14);
+  border: none;
+  border-radius: 20px;
+  border: 1px solid #1a1a1a;
+  cursor: pointer;
+}
+
+.contact-ct {
+  border-radius: 20px;
+  background-color: fefeff;
+  border-style: double;
+  color: rgb(15, 14, 14);
+}
+
+.quote {
+  display: contents;
+}
+
+.home {
+  display: flex;
+  background: rgb(193, 222, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 222, 232, 1) 0%,
+    rgba(251, 217, 185, 1) 100%
+  );
+  border-radius: 15px;
+
+  height: 550px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.p {
+  width: 50%;
+  display: flex;
+  padding: 25px;
+}
+
+.quote {
+  display: flex;
+  border-radius: 40px;
+  background-color: #fefeff;
+  width: 480px;
+  height: 60px;
+}
+
+.home-image {
+  display: flex;
+  width: 50%;
+}
+
+.home-c {
+  width: 479px;
+  height: 350px;
+  padding: 40px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.text {
+  display: flex;
+}
+.text-a {
+  width: 32%;
+  padding: 20px;
+  width: 460px;
+  height: 225px;
+  gap: 22px;
+}
+
+.villas {
+  display: flex;
+}
+
+.villas-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.global-header {
+  text-align: center;
+}
+
+.global {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.global-image {
+  display: flex;
+}
+
+.global-text {
+  width: 480px;
+  padding: 70px;
+}
+
+.quote2 {
+  display: flex;
+}
+
+.letter {
+  display: flex;
+  background: rgb(193, 222, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 222, 232, 1) 0%,
+    rgba(251, 217, 185, 1) 100%
+  );
+  border-radius: 15px;
+
+  height: 479px;
+
+  justify-content: flex-end;
+  align-items: center;
+}
+.letter-text {
+  width: 642px;
+  height: 279px;
+  display: grid;
+}
+
+.letter-image {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.email-form {
+  margin-top: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: stretch;
+}
+
+.input-group input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 70px 70px 70px 70px;
+  width: 100%;
+  border-right: none;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 70px 70px 70px 70px;
+  cursor: pointer;
+  border-left: none;
+  transition: background-color 0.3s;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 3rem;
+}
+
+.button {
+  width: 153px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.book-now {
+  background-color: black;
+  color: white;
+}
+
+.read-more {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  justify-content: space-between;
+}
+.number {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text-b {
+  text-align: center;
+}
+
+/* Küçük mobil cihazlar için (max-width: 600px) */
+@media (max-width: 600px) {
+  .pag {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    height: auto;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .home {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .home-image,
+  .p {
+    width: 100%;
+  }
+
+  .global,
+  .global-image,
+  .global-text,
+  .letter,
+  .letter-image,
+  .letter-text {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .quote,
+  .quote2 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .input-group input[type="email"] {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .submit-button {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .text-b,
+  .number {
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+/* Tabletler için (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .pag {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    height: auto;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .home {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .home-image,
+  .p {
+    width: 50%;
+  }
+
+  .global,
+  .global-image,
+  .global-text,
+  .letter,
+  .letter-image,
+  .letter-text {
+    width: 100%;
+    padding: 20px;
+  }
+  .villas {
+    flex-direction: column;
+  }
+  .button-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .quote,
+  .quote2 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Daha büyük ekranlar için (min-width: 1025px) */
+@media (min-width: 1025px) {
+  .pag {
+    padding: 50px;
+    flex-direction: row;
+  }
+
+  .header {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .home {
+    flex-direction: row;
+    height: 550px;
+  }
+
+  .home-image,
+  .p {
+    width: 50%;
+  }
+
+  .global,
+  .letter {
+    flex-direction: row;
+  }
+
+  .global-text,
+  .letter-text {
+    width: 50%;
+  }
+
+  .button-group {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
